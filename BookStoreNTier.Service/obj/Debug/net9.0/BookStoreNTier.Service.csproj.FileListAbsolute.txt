@@ -1,0 +1,17 @@
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\bin\Debug\net9.0\BookStoreNTier.Service.deps.json
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\bin\Debug\net9.0\BookStoreNTier.Service.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\bin\Debug\net9.0\BookStoreNTier.Service.pdb
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\bin\Debug\net9.0\BookStoreNTier.Core.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\bin\Debug\net9.0\BookStoreNTier.Data.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\bin\Debug\net9.0\BookStoreNTier.Core.pdb
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\bin\Debug\net9.0\BookStoreNTier.Data.pdb
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\BookStoreNTier.Service.csproj.AssemblyReference.cache
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\BookStoreNTier.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\BookStoreNTier.Service.AssemblyInfoInputs.cache
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\BookStoreNTier.Service.AssemblyInfo.cs
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\BookStoreNTier.Service.csproj.CoreCompileInputs.cache
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\BookStor.BEFD8E0B.Up2Date
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\BookStoreNTier.Service.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\refint\BookStoreNTier.Service.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\BookStoreNTier.Service.pdb
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Service\obj\Debug\net9.0\ref\BookStoreNTier.Service.dll

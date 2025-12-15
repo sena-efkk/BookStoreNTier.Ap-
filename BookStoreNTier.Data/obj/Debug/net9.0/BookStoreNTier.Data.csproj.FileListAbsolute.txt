@@ -1,0 +1,17 @@
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.csproj.AssemblyReference.cache
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.AssemblyInfoInputs.cache
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.AssemblyInfo.cs
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.csproj.CoreCompileInputs.cache
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\bin\Debug\net9.0\BookStoreNTier.Data.deps.json
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\bin\Debug\net9.0\BookStoreNTier.Data.runtimeconfig.json
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\bin\Debug\net9.0\BookStoreNTier.Data.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\bin\Debug\net9.0\BookStoreNTier.Data.pdb
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\bin\Debug\net9.0\BookStoreNTier.Core.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\bin\Debug\net9.0\BookStoreNTier.Core.pdb
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStor.C9456608.Up2Date
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\refint\BookStoreNTier.Data.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.pdb
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.genruntimeconfig.cache
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\ref\BookStoreNTier.Data.dll
