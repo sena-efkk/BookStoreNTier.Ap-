@@ -15,3 +15,4 @@ C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\o
 C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.pdb
 C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.genruntimeconfig.cache
 C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\ref\BookStoreNTier.Data.dll
+C:\Users\senas\OneDrive\Desktop\asp.netcore\BookStoreNTier\BookStoreNTier.Data\obj\Debug\net9.0\BookStoreNTier.Data.sourcelink.json

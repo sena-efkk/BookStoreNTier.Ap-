@@ -44,7 +44,6 @@ namespace BookStoreNTier.Service.Services
 
             if (book == null) return null; // Veya hata fırlatabilirsin.
 
-            // Entity -> DTO Çevrimi
             return new BookDto
             {
                 Id = book.Id,
@@ -56,16 +55,13 @@ namespace BookStoreNTier.Service.Services
 
         public async Task<BookDto> AddBookAsync(CreateBookDto createBookDto)
         {
-            // 1. DTO -> Entity Çevrimi (Create işlemi için)
             var bookEntity = new Book
             {
                 Title = createBookDto.Title,
                 Price = createBookDto.Price,
                 CategoryId = createBookDto.CategoryId,
-                // Id ve CreatedDate otomatik oluşacak
             };
 
-            // 2. Veritabanına Ekleme
             await _bookRepository.AddAsync(bookEntity);
             
             // BURADA EKSİK VAR: SaveChanges() çağrılmadı! 
