@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookStoreNTier.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c950cd7adff7de4c17a73fabe9d016d7ebe53b50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69a387bbad2cca1eda475eb3dc2b045fd6a7752c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookStoreNTier.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookStoreNTier.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
