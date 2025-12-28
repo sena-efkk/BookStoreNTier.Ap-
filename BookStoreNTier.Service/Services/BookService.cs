@@ -1,5 +1,6 @@
 using BookStoreNTier.Core.Entities;
 using BookStoreNTier.Core.Repositories;
+using BookStoreNTier.Core.Utilities.Results;
 using BookStoreNTier.Service.DTOs;
 using BookStoreNTier.Service.Services.Interface;
 
@@ -14,7 +15,7 @@ namespace BookStoreNTier.Service.Services
             _bookRepository = bookRepository;
         }
 
-        public async Task<IEnumerable<BookDto>> GetAllBooksAsync()
+        public async Task<IDataResult<IEnumerable<BookDto>>> GetAllBooksAsync()
         {
             var books = await _bookRepository.GetAllAsync();
 
@@ -35,25 +36,32 @@ namespace BookStoreNTier.Service.Services
                 });
             }
 
-            return bookDtos;
+            // DEĞİŞİM BURADA:
+            // Listeyi çıplak dönmek yerine, "Başarılı" etiketi ve mesajıyla paketliyoruz.
+            return new SuccessDataResult<IEnumerable<BookDto>>(bookDtos, "Kitaplar başarıyla listelendi.");
         }
 
-        public async Task<BookDto> GetBookByIdAsync(int id)
+        public async Task<IDataResult<BookDto>> GetBookByIdAsync(int id)
         {
             var book = await _bookRepository.GetByIdAsync(id);
 
-            if (book == null) return null; // Veya hata fırlatabilirsin.
+            if (book == null)
+            {
+                return new ErrorDataResult<BookDto>("Aradığınız kitap bulunamadı.");
+            }
 
-            return new BookDto
+            var bookDto = new BookDto
             {
                 Id = book.Id,
                 Title = book.Title,
                 Price = book.Price,
                 CategoryId = book.CategoryId
             };
+            // BAŞARILI İSE:
+            return new SuccessDataResult<BookDto>(bookDto, "Kitap getirildi.");
         }
 
-        public async Task<BookDto> AddBookAsync(CreateBookDto createBookDto)
+        public async Task<IDataResult<BookDto>> AddBookAsync(CreateBookDto createBookDto)
         {
             var bookEntity = new Book
             {
@@ -63,20 +71,24 @@ namespace BookStoreNTier.Service.Services
             };
 
             await _bookRepository.AddAsync(bookEntity);
-            
+
             // BURADA EKSİK VAR: SaveChanges() çağrılmadı! 
             // UnitOfWork yapmadığımız için SaveChanges'i Repository'ye eklememiz gerekebilir 
             // ya da şimdilik repository'de AddAsync içine _context.SaveChanges() ekle.
             // (Bu konuyu sonra düzelteceğiz, şimdilik böyle kabul et)
 
-            // 3. Geriye Oluşan Datayı DTO olarak dönme
-            return new BookDto
+            // 3. Geriye Oluşan Datayı DTO çevirelim
+            var newBookDto = new BookDto
             {
                 Id = bookEntity.Id,
                 Title = bookEntity.Title,
                 Price = bookEntity.Price,
                 CategoryId = bookEntity.CategoryId
             };
+
+            // Ekleme işlemi sonucu:
+            return new SuccessDataResult<BookDto>(newBookDto, "Kitap başarıyla eklendi.");
+            
         }
     }
 }
